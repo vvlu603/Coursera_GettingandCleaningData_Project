@@ -6,6 +6,6 @@ This file describes how to use the R script to perform the end goals of Coursera
 2. Save run_analysis.R into the same working directory as the "data" file containing all the unzipped files. 
 3. Open RStudio, and use source("run_analysis.R") after setting your working directory. 
 4. Two final .txt files will be generated from run_analysis.R. 
-*mergeddata.txt: a textfile that was generated from the merging of the test and training sets into a data frame called clean_data (dimensions: 10299 observations of 68 variables) 
-*data_means.txt: A textfile that was generated from clean_data along with the averages of each variable for each activity and each subject (dimensions: 180 observations of 68 variables). 
+  *mergeddata.txt: a textfile that was generated from the merging of the test and training sets into a data frame called     clean_data (dimensions: 10299 observations of 68 variables) 
+  *data_means.txt: A textfile that was generated from clean_data along with the averages of each variable for each activity and each subject (dimensions: 180 observations of 68 variables). 
 5. To read in data_means.txt, simply use read.table("data_means.txt"). 
