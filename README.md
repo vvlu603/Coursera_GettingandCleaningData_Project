@@ -1,4 +1,4 @@
-# Course Project for Coursera's Getting and cleaning Data
+# Course Project for Coursera's Getting and Cleaning Data
 
 This file describes how to use the R script to perform the end goals of Coursera's Getting and Cleaning Data course Project. 
 
@@ -9,3 +9,8 @@ This file describes how to use the R script to perform the end goals of Coursera
   *mergeddata.txt: a textfile that was generated from the merging of the test and training sets into a data frame called "clean_data" (dimensions: 10299 observations of 68 variables). 
   *data_means.txt: A textfile that was generated from clean_data with the averages of each variables for each activity and each subject (dimesnions: 180 observations of 68 variables). 
 5. To read in data_means.txt, simply use read.table("data_means.txt"). 
+1. Item 1
+2. Item 2
+3. Item 3
+   * Item 3a
+   * Item 3b
